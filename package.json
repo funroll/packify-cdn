@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/funroll/packify-cdn",
   "dependencies": {
-    "express": "~3.4.7"
+    "express": "~3.4.7",
     "logfmt": "~0.18.1",
     "packify": "funroll/packify"
   },
