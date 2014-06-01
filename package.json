@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/funroll/packify-cdn/issues"
   },
-  "homepage": "https://github.com/funroll/packify-cdn"
+  "homepage": "https://github.com/funroll/packify-cdn",
+  "dependencies": {
+    "packify": "funroll/packify"
+  }
 }
