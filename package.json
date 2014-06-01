@@ -19,7 +19,8 @@
   "dependencies": {
     "express": "~3.4.7",
     "logfmt": "~0.18.1",
-    "packify": "funroll/packify"
+    "packify": "funroll/packify",
+    "cors": "^2.3.1"
   },
   "engines": {
     "node": "0.10.x"

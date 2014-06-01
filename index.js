@@ -2,8 +2,11 @@ var packify = require('packify')
 
 var express = require("express");
 var logfmt = require("logfmt");
+var cors = require('cors');
+
 var app = express();
 
+app.use(cors());
 app.use(logfmt.requestLogger());
 
 function rawBody(req, res, next) {
